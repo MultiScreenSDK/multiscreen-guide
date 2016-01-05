@@ -12,7 +12,11 @@
 1. Download sample cloud app - http://www.samsungdforum.com/TizenGuide/tizen1731/index.html#Sample-Applications
 2. Build/run mobile app(s).
 3. Host the 'dist' directory in the TV app somewhere where it can be accessed by the TV. (If you have node.js installed in the development machine, you can do `npm install`, followed by `gulp build` and `gulp server` to serve the TV app locally from your development machine).
-4. Put the TV in development mode and register the IP of the device your mobile app is running on. (You need to do this so that mobile app can launch the TV app even before the app is submitted to Samsung and whitelisted).
+4. Put the TV in development mode and register the IP of a client machine (phone/laptop).
+5. Power cycle the TV.
+6. On TV, under Network Status, find IP address of the TV.
+7. Goto the TV developer settings page at `http://<ip address of the TV>:8001` using a browser from the registered client.
+8. Check "Allow all content" checkbox in the settings page and submit the form (along with the CAPTCHA text).
 
 ## How to get Tizen installed app running on the TV?
 1. Download sample Tizen installed app -  http://www.samsungdforum.com/TizenGuide/tizen4401/index.html
@@ -23,7 +27,8 @@
 6. Run the project as a Tizen Web application (right click project -> Run as -> Tizen Web application).
 
 ## What 2015 TVs support Multiscreen?
-- 2015 Smart TVs 5500 and above (except 6201, 6203).
+For 2015 TVs, J4500, J5500 and above, (Except for J6200).
+- 2015 Smart TVs J5500 and above (except J6201, 6203).
 
 ## How to put the TV in development mode?
 1. On TV, goto Apps =>My Apps and using the remote, enter 12345 in sequence.
