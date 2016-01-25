@@ -2,11 +2,12 @@
 
 
 ## Resources
-- Multiscreen Development Guide - http://www.samsungdforum.com/TizenGuide/tizen1731/index.html
-- Multiscreen SDK download page - http://www.samsungdforum.com/AddLibrary/MultiSdkDownload
-- Multiscreen Cloud Launched App Examples - http://www.samsungdforum.com/TizenGuide/tizen1731/index.html#Sample-Applications
-- More advanced cloud launched examples - https://github.com/MultiScreenSDK
-- Multiscreen Installed App Examples - http://www.samsungdforum.com/TizenGuide/tizen4401/index.html
+- [Multiscreen Development Guide](http://www.samsungdforum.com/TizenGuide/tizen1731/index.html)
+- [Multiscreen SDK download page](http://www.samsungdforum.com/AddLibrary/MultiSdkDownload)
+- [Multiscreen Cloud Launched App Examples](http://www.samsungdforum.com/TizenGuide/tizen1731/index.html#Sample-Applications)
+- [More advanced cloud launched examples](https://github.com/MultiScreenSDK)
+- [Multiscreen Installed App Examples](http://www.samsungdforum.com/TizenGuide/tizen4401/index.html)
+- [Multiscreen Code Snippets]()
 
 ## How to get Multiscreen cloud launched app running on the TV?
 1. Download sample cloud app - http://www.samsungdforum.com/TizenGuide/tizen1731/index.html#Sample-Applications
@@ -21,8 +22,8 @@
 ## How to get Tizen installed app running on the TV?
 1. Download sample Tizen installed app -  http://www.samsungdforum.com/TizenGuide/tizen4401/index.html
 2. Build/run mobile app(s).
-3. Build the TV app using the Tizen IDE (see below - How to get started with Tizen IDE)
-4. Put  TV in development mode and register dev machine (see below).
+3. Build the TV app using the Tizen IDE [See Below](#how-to-get-started-with-tizen-ide).
+4. Put  TV in development mode and register dev machine [See Below](#how-to-put the-tv-in-development-mode?).
 5. Create a target on IDE that points to the  TV (Go to the Connection explorer panel -> Remote device manager icon and enter the the TV IP address (The TV and the dev machine has to be in the same network).
 6. Run the project as a Tizen Web application (right click project -> Run as -> Tizen Web application).
 
