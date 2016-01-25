@@ -7,7 +7,7 @@
 - [Multiscreen Cloud Launched App Examples](http://www.samsungdforum.com/TizenGuide/tizen1731/index.html#Sample-Applications)
 - [More advanced cloud launched examples](https://github.com/MultiScreenSDK)
 - [Multiscreen Installed App Examples](http://www.samsungdforum.com/TizenGuide/tizen4401/index.html)
-- [Multiscreen Code Snippets]()
+- [Multiscreen Code Snippets](https://github.com/MultiScreenSDK/multiscreen-guide/blob/master/code_snippets.md)
 
 ## How to get Multiscreen cloud launched app running on the TV?
 1. Download sample cloud app - http://www.samsungdforum.com/TizenGuide/tizen1731/index.html#Sample-Applications
